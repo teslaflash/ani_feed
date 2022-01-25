@@ -51,7 +51,6 @@ data class Anime(
     @TypeConverters(AnimeTitleConverter::class)
     var description: AnimeDescription,
 
-    //TODO add startDate and endDate
     @SerializedName("season_year")
     var seasonYear: Int,
 

@@ -30,7 +30,6 @@ class AnimeDetailsFragment: Fragment() {
         var description = root.findViewById<TextView>(R.id.episode_description)
         val aniDoc = args.animeItem
 
-        //TODO try to get all desc or get only "en" version
         var animeDescription = if (!aniDoc.description.enDescription.isNullOrBlank()) aniDoc.description.enDescription else if (!aniDoc.description.itDescription.isNullOrBlank()) aniDoc.description.itDescription else "no description :("
         description.text = Html.fromHtml(animeDescription, 0)
         val imageView: ImageView = root.findViewById(R.id.expandedImage)

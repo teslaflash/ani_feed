@@ -52,7 +52,6 @@ class MainActivity: AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
-        //TODO delete it
         navController.addOnDestinationChangedListener{ navcontroller, destination, bundle ->
 
             when (destination.id){
