@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feed"
+        android:icon="@drawable/ic_feed_16"
+        android:title="feed" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_history_16"
+        android:title="history" />
+
+</menu>
